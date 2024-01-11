@@ -105,6 +105,7 @@ img {
 .container {
   max-width: 1120px;
   margin-inline: 1.5rem;
+  /* margin: 0 auto */
 }
 
 .grid {
@@ -472,6 +473,7 @@ nav {
   background-color: var(--black-color);
   padding: 1.1rem 1.5rem;
   color: var(--white-color);
+  font-wight: var(--font-medium);
   transition: background-color .4s;
 
 }
@@ -488,7 +490,13 @@ nav {
   padding: .5rem;
   transition: border .4s, color .4s;
 }
+.button__ghost i {
+  font-size: 1.25rem;
 
+}
+.button__ghost:hover{
+  border: 3px solid var(--first-color)
+}
 
 
 /*=============== ABOUT ===============*/
@@ -502,14 +510,14 @@ nav {
 
 .about__perfil{
   position: relative;
-  justify-content: center;
+  justify-self: center;
   margin-block: 2.5rem 4.5rem;
 }
 .about__image{
   width: 220px;
 }
 .about__img{
-  position: reative;
+  position: relative;
   border: 4px solid var(--white-color);
   z-index: 1;
 
@@ -527,6 +535,7 @@ nav {
   background-color: var(--body-color);
   top: -2.5rem;
   right: -3.5rem;
+  
   border-bottom: 4px solid var(--first-color);
   transition: background-color .4s;
 
@@ -559,7 +568,7 @@ nav {
 }
 
 .about__description{
-  position: realtive;
+  position: relative;
   color: var(--title-color);
   margin-bottom: 1.5rem;
 }
@@ -574,7 +583,7 @@ nav {
 }
 
 .about__list{
-  list-style: none;
+  list-style: square;
   color: var(--title-color);
   margin-bottom: 3rem;
 }
