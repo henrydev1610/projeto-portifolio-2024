@@ -353,26 +353,26 @@
               <form action="" class="contact__form" id="contact-form">
                 <div class="contact__group">
                   <div class="contact__box">
-                    <input type="text" class="contact__input" name="username" required placeholder="Digite seu primeiro nome" id="name">
+                    <input type="text" class="contact__input" name="user_name" required placeholder="Digite seu primeiro nome" id="user_name">
                     <label for="name" class="contact__label">Primeiro Nome</label>
                   </div>
 
                   <div class="contact__box">
-                    <input type="email" class="contact__input" name="user_email" required placeholder="Digite seu e-mail" id="email">
+                    <input type="email" class="contact__input" name="user_email" required placeholder="Digite seu e-mail" id="user_email">
                     <label for="email" class="contact__label">E-mail</label>
                   </div>
                                 
                   
                   <div class="contact__box">
-                    <input type="text" class="contact__input" name="user_subject" required placeholder="Digite o Assunto" id="subject">
+                    <input type="text" class="contact__input" name="user_subject" required placeholder="Digite o Assunto" id="user_subject">
                     <label for="subject" class="contact__label">Assunto</label>
                   </div>
                   <div class="contact__box contact__area">
 
-                    <textarea name="user_message" id="message" class="contact__input" rows="10" required placeholder="Digite sua mensagem" ></textarea>
+                    <textarea name="user_message" id="user_message" class="contact__input" rows="10" required placeholder="Digite sua mensagem" ></textarea>
                     <label for="message" class="contact__label"> Mensagem </label>
                   </div>
-                
+                <p class="contact__message" id="contact-message"></p>
                   <button type="submit" class="contact__button button">
                     <i class="ri-send-plane-line"></i>
                     Enviar Mensagem
@@ -425,7 +425,7 @@
     <script src=""></script>
 
     <!--=============== EMAIL JS ===============-->
-
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <!--=============== MAIN JS ===============-->
     <script src="./js/main.js"></script>
   </body>
