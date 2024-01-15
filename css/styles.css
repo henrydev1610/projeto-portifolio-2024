@@ -964,6 +964,14 @@ height: 16rem;
 .contact__social-link:hover{
   background-color: var(--first-color);
 }
+
+.contact__message{
+  color: var(--white-color);
+  position: absolute;
+  font-size: var(--small-font-size);
+  position: absolute;
+  bottom: -1.6rem;
+}
 /*=============== FOOTER ===============*/
 
 

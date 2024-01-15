@@ -59,7 +59,7 @@ const sendEmail = (e) =>{
     //limpar os inputs
     contactForm.reset()
     }, () =>{
-        contactMessage.textContent= 'Mensagem nao pode ser enviada'
+        contactMessage.textContent= 'Mensagem Não pode ser enviada ERRO!'
     })
    
 
