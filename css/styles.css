@@ -91,15 +91,70 @@ img {
 
 /*=============== THEME ===============*/
 
+.nav__buttons{
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.change-theme{
+  font-size: 1.25rem;
+  color: var(--title-color);
+  cursor: pointer;
+  transition: color .3s ;
+}
+
+
+
 
 /*========== Variables Dark theme ==========*/
-
+  body.dark-theme{
+      --first-color: hsl(14, 80%, 50%);
+  --black-color: hsl(0, 0%, 18%);
+  --black-color-light: hsl(0, 0%, 30%);
+  
+  --title-color: hsl(0, 0%, 95%);
+  --text-color: hsl(0, 0%, 70%);
+ 
+  --body-color: hsl(0, 0%, 8%);
+  --container-color: hsl(0, 0%, 12%);
+  }
 
 /*========== 
 	Color changes in some parts of 
 	the website, in dark theme
 ==========*/
 
+.dark-theme .shadow-header{
+  box-shadow: 0 1px 12px hsla(0, 0%, 0%, .6);
+}
+.dark-theme .section__title-1::after,
+.dark-theme .section__title-2::after{
+  background-color: hsla(14, 70%, 50%, .2);
+}
+
+.dark-theme :is(.home-arrow, .home-line, .about__line){
+  filter: none;
+}
+.dark-theme .home__description b{
+  background: linear-gradient(90deg, hsla(18, 80% 50%, .3), 
+                              hsla(14, 80%, 50%, 0)) ;
+}
+.dark-theme :is(.button__ghost, .services__icon i){
+  color: var(--white-color);
+}
+.dark-theme .projects__card:hover{
+  background-color: var(--body-color);
+}
+.dark-theme :is(.contact__mail, contact-input, .contact__label){
+  background-color: var(--container-color);
+}
+.dark-theme .footer{
+  background-color: hsla(0, 0%, 4% );
+}
+.dark-theme::-webkit-scrollbar{
+  background-color: hsl(0, 0%, 20%)
+}
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
@@ -311,7 +366,12 @@ nav {
 }
 
 /* Active link */
-
+.active-link{
+  color: var(--white-color);
+}
+.active-link::after{
+  width: 25%;
+}
 
 /*=============== HOME ===============*/
 
@@ -502,7 +562,7 @@ nav {
 /*=============== ABOUT ===============*/
 .about{
   background-color: var(--container-color);
-  transition: background-color 4s;
+  transition: background-color .4s;
 }
 .about__container{
   row-gap: 0;
@@ -1036,10 +1096,27 @@ height: 16rem;
 }
 
 /*=============== SCROLL UP ===============*/
+  .scrollup{
+    position: fixed;
+    right: 1rem;
+    bottom: -50%;
+    background-color: var(--black-color);
+    display: inline-flex;
+    padding: 8px;
+    font-size: 1.25rem;
+    color: var(--white-color);
+    z-index: var(--z-tooltip);
+    transition: bottom .4s, transform .4s, background-color .4s;
 
-
+    
+  }
+.scrollup:hover{
+  transform: translateY(-.5rem);
+}
 /* Show Scroll Up */
-
+.show-scroll{
+  bottom: 3rem;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
