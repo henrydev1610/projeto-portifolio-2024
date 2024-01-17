@@ -22,15 +22,15 @@
   <body>
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
-      <nav class="nav container">
+      <nav class="nav container ">
         <a href="#" class="nav__logo">
-          <span class="nav__logo-circle">J</span>
-          <span class="nav__logo-name">João Dev.</span>
+          <span class="nav__logo-circle">H</span>
+          <span class="nav__logo-name">Henry Dev.</span>
         </a>
         <div class="nav__menu" id="nav-menu">
           <span class="nav__title">Menu</span>
 
-          <h3 class="nav__name">João</h3>
+          <h3 class="nav__name"></h3>
 
           <ul class="nav__list">
             <li class="nav__item">
@@ -43,7 +43,7 @@
               <a href="#projects" class="nav__link">Projetos</a>
             </li>
             <li class="nav__item">
-              <a href="#contact" class="nav__link">Contato</a>
+              <a href="#contact" class="nav__link nav__link-button">Contate - Me</a>
             </li>
           </ul>
           <div class="nav__close" id="nav-close">
@@ -70,11 +70,11 @@
       <section class="home section" id="home">
          <div class="home__container container grid">
             <h1 class="home__name">
-               João Dev.
+               Henry Dev.
             </h1>
             <div class="home__perfil">
                <div class="home__image">
-                  <img src="./img/home-perfil.jpg" alt="image" class="home__img">
+                  <img src="./img/eu.jpeg" alt="image" class="home__img">
                   <div class="home__shadow"></div>
 
                   <img src="./img/curved-arrow.svg" alt="curved arrow" class="home-arrow">
@@ -120,11 +120,11 @@
 
 
       <section class="about section" id="about">
-            <div class="abaout__container container grid">
+            <div class="about__container container grid">
                 <h2 class="section__title-1"> Sobre Mim</h2>
                 <div class="about__perfil">
                   <div class="about__image">
-                    <img src="./img/about-perfil.jpg" alt="about img" class="about__img">
+                    <img src="./img/eu.jpeg" alt="about img" class="about__img">
 
                     <div class="about__shadow"></div>
                     <div class="geometric-box"></div>
@@ -357,16 +357,17 @@
                 </h2>
               <form action="" class="contact__form" id="contact-form">
                 <div class="contact__group">
-                  <div class="contact__box">
-                    <input type="text" class="contact__input" name="user_name" required placeholder="Digite seu primeiro nome" id="user_name">
-                    <label for="name" class="contact__label">Primeiro Nome</label>
-                  </div>
 
-                  <div class="contact__box">
-                    <input type="email" class="contact__input" name="user_email" required placeholder="Digite seu e-mail" id="user_email">
-                    <label for="email" class="contact__label">E-mail</label>
-                  </div>
-                                
+                      <div class="contact__box">
+                        <input type="text" class="contact__input" name="user_name" required placeholder="Digite seu primeiro nome" id="user_name">
+                        <label for="name" class="contact__label">Primeiro Nome</label>
+                      </div>
+
+                      <div class="contact__box">
+                        <input type="email" class="contact__input" name="user_email" required placeholder="Digite seu e-mail" id="user_email">
+                        <label for="email" class="contact__label">E-mail</label>
+                </div>
+                              
                   
                   <div class="contact__box">
                     <input type="text" class="contact__input" name="user_subject" required placeholder="Digite o Assunto" id="user_subject">
@@ -377,6 +378,8 @@
                     <textarea name="user_message" id="user_message" class="contact__input" rows="10" required placeholder="Digite sua mensagem" ></textarea>
                     <label for="message" class="contact__label"> Mensagem </label>
                   </div>
+
+
                 <p class="contact__message" id="contact-message"></p>
                   <button type="submit" class="contact__button button">
                     <i class="ri-send-plane-line"></i>
