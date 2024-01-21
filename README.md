@@ -26,7 +26,7 @@ Bem-vindo ao meu portfólio! Este é um projeto pessoal que desenvolvi utilizand
 
 - **Detalhes Pessoais:** 👋 Olá! Me chamo **Henry Benjamin**, um amante da programação com dois anos de experiência dedicados ao mundo do desenvolvimento frontend. Durante esse período, concentrei meus esforços na criação de páginas web com um forte foco em responsividade e experiência do usuário.
 
-## 📖 Como Usar
+## 📖 Como Usar:
 ```bash
 ##1. Clone o repositório: 
 git clone https://github.com/henrydev1610/projeto-portifolio-2024
@@ -34,7 +34,7 @@ git clone https://github.com/henrydev1610/projeto-portifolio-2024
 
 2. Abra o arquivo `index.html` em seu navegador.
 
-## 🛠 Personalização
+## 🛠 Personalização:
 
 Sinta-se à vontade para personalizar este portfólio de acordo com suas preferências:
 
@@ -42,11 +42,11 @@ Sinta-se à vontade para personalizar este portfólio de acordo com suas prefer�
 - Ajuste as cores e estilos no CSS.
 - Adicione ou remova seções conforme necessário.
 
-## ♻ Contribuições
+## ♻ Contribuições:
 
 Se você encontrar problemas ou melhorias possíveis, sinta-se à vontade para abrir uma issue ou enviar um pull request. Suas contribuições são bem-vindas!
 
-## 📃 Licença
+## 📃 Licença:
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE) - veja o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.
 
