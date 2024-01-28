@@ -499,7 +499,7 @@ nav {
   animation: scroll-down 3s infinite;
 }
 
-/* Animate scroll icon */
+/* Animando o scroll icon */
 @keyframes scroll-down{
   0%{
     transform: translateY(-1rem);
@@ -558,7 +558,7 @@ nav {
 }
 
 
-/*=============== ABOUT ===============*/
+/*=============== SOBRE ===============*/
 .about{
   background-color: var(--container-color);
   transition: background-color .4s;
@@ -653,7 +653,7 @@ nav {
   align-items: center;
   column-gap: 1rem ;
 }
-/*=============== SERVICES ===============*/
+/*=============== SERVIÇOS ===============*/
 .services__container{
   grid-template-columns: 250px;
   justify-content: center;
@@ -720,7 +720,7 @@ background-color: var(--first-color);
 
 
 
-/*=============== PROJECTS ===============*/
+/*=============== PROJECTOS ===============*/
   .projects{
     background-color: var(--container-color);
     transition: background-color .4s;
