@@ -1,11 +1,11 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap");
 
-/*=============== VARIABLES CSS ===============*/
+/*=============== VARIÁVEIS CSS ===============*/
 :root {
   --header-height: 3.5rem;
 
-  /*========== Colors ==========*/
+  /*========== Cores ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
   --first-color: hsl(14, 98%, 50%);
   --black-color: hsl(0, 0%, 0%);
@@ -17,7 +17,7 @@
   --body-color: hsl(0, 0%, 87%);
   --container-color: hsl(0, 0%, 83%);
 
-  /*========== Font and typography ==========*/
+  /*========== Fonte e tipografia ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Bai Jamjuree", sans-serif;
   --biggest-font-size: 2.5rem;
@@ -39,7 +39,7 @@
   --z-fixed: 100;
 }
 
-/*========== Responsive typography ==========*/
+/*========== Tipografia responsiva ==========*/
 @media screen and (min-width: 1150px) {
   :root {
     --biggest-font-size: 4.5rem;
@@ -89,7 +89,7 @@ img {
   height: auto;
 }
 
-/*=============== THEME ===============*/
+/*=============== TEMA ===============*/
 
 .nav__buttons{
   display: flex;
@@ -107,7 +107,7 @@ img {
 
 
 
-/*========== Variables Dark theme ==========*/
+/*========== VARIÁVEIS E DARK-MODE ==========*/
   body.dark-theme{
       --first-color: hsl(14, 80%, 50%);
   --black-color: hsl(0, 0%, 18%);
@@ -121,8 +121,7 @@ img {
   }
 
 /*========== 
-	Color changes in some parts of 
-	the website, in dark theme
+
 ==========*/
 
 .dark-theme .shadow-header{
@@ -156,7 +155,7 @@ img {
   background-color: hsl(0, 0%, 20%)
 }
 
-/*=============== REUSABLE CSS CLASSES ===============*/
+/*=============== CLASSES DE REÚSO ===============*/
 .container {
   max-width: 1120px;
   margin-inline: 1.5rem;
@@ -271,7 +270,7 @@ nav {
   cursor: pointer;
 }
 
-/* Navigation for mobile devices */
+/* para navegação em dispositivos móveis  */
 @media screen and (max-width: 1150px){
   .nav__menu{
     position: fixed;
