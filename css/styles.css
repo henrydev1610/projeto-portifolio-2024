@@ -720,7 +720,7 @@ background-color: var(--first-color);
 
 
 
-/*=============== PROJECTOS ===============*/
+/*=============== PROJETOS ===============*/
   .projects{
     background-color: var(--container-color);
     transition: background-color .4s;
@@ -828,7 +828,7 @@ background-color: var(--first-color);
     }
 
 
-/*=============== CONTACT ===============*/
+/*=============== CONTATO ===============*/
 .contact{
   padding-bottom: 0;
 }
@@ -964,7 +964,7 @@ height: 16rem;
 
 
 
-/* Opaque placeholder */
+/*  placeholder opaco */
 .contact__input:focus::placeholder{
   opacity: 0;
 }
