@@ -13,7 +13,7 @@ Bem-vindo ao meu portfólio! Este é um projeto pessoal que desenvolvi utilizand
 
 <img src="./img/GIF 21-01-2024 16-11-35.gif"/>
 
-**Link para o projeto:** <a href=" https://henrydev1610.github.io/projeto-portifolio-2024/"> portifolo-2024 </a>
+**Link para o projeto:** [Portifólio Henry Dev 2024]( https://henrydev1610.github.io/projeto-portifolio-2024/)
 
 
 
